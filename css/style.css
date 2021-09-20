@@ -81,8 +81,44 @@ hr {
   font-weight: bold;
 }
 
+.edcs {
+  margin: 1.5rem 1.8rem 0.5rem;
+  text-align: justify;
+  font-weight: bold;
+}
+
 .edc {
   font-weight: normal;
+}
+
+.apti {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+}
+
+.ap {
+  margin: 0rem 1.8rem;
+}
+
+.com7,
+.com8 {
+  height: 1cm;
+  margin: 1rem 1.8rem;
+  background-color: var(--text);
+  color: var(--uno);
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  grid-column: span 5;
+}
+
+.com7 {
+  width: 70%;
+}
+
+.com8 {
+  width: 80%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -110,5 +146,15 @@ hr {
 
   .name p {
     font-size: 2em;
+  }
+
+  .ap {
+    grid-column: 1/-1;
+  }
+
+  .com7,
+  .com8 {
+    height: 0.5cm;
+    font-size: 0.8em;
   }
 }
