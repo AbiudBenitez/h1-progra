@@ -21,7 +21,7 @@ body {
 header,
 .cont {
   background-color: var(--dos);
-  margin: 1rem 1rem;
+  margin: 1rem;
   padding: 1rem;
   border-radius: 20px;
 }
@@ -105,8 +105,8 @@ hr {
 .com8 {
   height: 1cm;
   margin: 1rem 1.8rem;
-  background-color: var(--text);
-  color: var(--uno);
+  background-color: var(--dos);
+  color: var(--text);
   font-size: 1.5em;
   font-weight: bold;
   text-align: center;
@@ -119,6 +119,13 @@ hr {
 
 .com8 {
   width: 80%;
+}
+
+footer {
+  margin: 1em 1em 0em 1em;
+  padding: 0.8em;
+  border-radius: 20px 20px 0px 0px;
+  background-color: var(--dos);
 }
 
 @media (prefers-color-scheme: dark) {
